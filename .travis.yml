@@ -12,5 +12,5 @@ befor_install:
 - gem install cocoapods
 - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild clean build test -workspace Example/JSSideSlipMenu.xcworkspace -scheme JSSideSlipMenu-Example -sdk iphonesimulator10.3 -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.3' ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
+- set -o pipefail && xcodebuild clean build test -workspace Example/JSSideSlipMenu.xcworkspace -scheme JSSideSlipMenu-Example -sdk iphonesimulator10.3 -destination 'platform=iOS Simulator,name=iPhone 5s,OS=9.3' ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
 - pod lib lint
