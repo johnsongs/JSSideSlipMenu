@@ -18,9 +18,6 @@
 		6003F59E195388D20070C39A /* JSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* JSAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* JSViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E4A5189C0BE399AB4202B6A8 /* Pods_JSSideSlipMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B1ED9AC9016FE6DD24D7CF /* Pods_JSSideSlipMenu_Example.framework */; };
@@ -33,13 +30,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = JSSideSlipMenu_Example;
-		};
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = JSSideSlipMenu;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -97,17 +87,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4B3B7D70908DF77D80A2BC6C /* Pods_JSSideSlipMenu_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -147,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* JSSideSlipMenu_Example.app */,
-				6003F5AE195388D20070C39A /* JSSideSlipMenu_Tests.xctest */,
 				2C1B3C041FDECD030035D318 /* JSSideSlipMenu_ExampleUITests.xctest */,
 			);
 			name = Products;
@@ -248,27 +226,6 @@
 			productReference = 6003F58A195388D20070C39A /* JSSideSlipMenu_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* JSSideSlipMenu_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "JSSideSlipMenu_Tests" */;
-			buildPhases = (
-				E87CA7EEE3C39038D03353CF /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				D9027F6994780930BA1FAD8E /* [CP] Embed Pods Frameworks */,
-				870208DC7FD4B9E15CE21E1B /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = JSSideSlipMenu_Tests;
-			productName = JSSideSlipMenuTests;
-			productReference = 6003F5AE195388D20070C39A /* JSSideSlipMenu_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -282,9 +239,6 @@
 					2C1B3C031FDECD030035D318 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -303,7 +257,6 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* JSSideSlipMenu_Example */,
-				6003F5AD195388D20070C39A /* JSSideSlipMenu_Tests */,
 				2C1B3C031FDECD030035D318 /* JSSideSlipMenu_ExampleUITests */,
 			);
 		};
@@ -328,13 +281,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -356,21 +302,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideSlipMenu_Example/Pods-JSSideSlipMenu_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		870208DC7FD4B9E15CE21E1B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AA2E3821C9831CA55F98DFC1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,24 +320,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D9027F6994780930BA1FAD8E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D9B023DF2B7519FF98350BE6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -420,24 +333,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSSideSlipMenu_Example/Pods-JSSideSlipMenu_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E87CA7EEE3C39038D03353CF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JSSideSlipMenu_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -463,13 +358,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -477,11 +365,6 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* JSSideSlipMenu_Example */;
 			targetProxy = 2C1B3C091FDECD030035D318 /* PBXContainerItemProxy */;
-		};
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* JSSideSlipMenu_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -679,50 +562,6 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7878DA33FDFA3290CC6C9FAD /* Pods-JSSideSlipMenu_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSSideSlipMenu_Example.app/JSSideSlipMenu_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A355504938FCAD5B5548F26 /* Pods-JSSideSlipMenu_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSSideSlipMenu_Example.app/JSSideSlipMenu_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -749,15 +588,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "JSSideSlipMenu_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
