@@ -34,7 +34,7 @@ Use `- (void)pushViewController:(UIViewController *)viewController` in JSSideSli
 
 ## Author
 
-johnsongs, 936642419@qq.com
+johnsongs, johnson_gs@live.cn
 
 ## License
 
