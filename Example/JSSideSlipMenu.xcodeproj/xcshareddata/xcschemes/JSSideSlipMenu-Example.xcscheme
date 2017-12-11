@@ -39,6 +39,16 @@
                ReferencedContainer = "container:JSSideSlipMenu.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C1B3BF51FDEB60F0035D318"
+               BuildableName = "JSSideSlipMenu_ExampleUITests.xctest"
+               BlueprintName = "JSSideSlipMenu_ExampleUITests"
+               ReferencedContainer = "container:JSSideSlipMenu.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
