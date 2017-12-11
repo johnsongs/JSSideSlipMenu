@@ -9,11 +9,11 @@
 #import <XCTest/XCTest.h>
 
 @interface JSSideSlipMenu_ExampleUITests : XCTestCase
-
-@end
+    
+    @end
 
 @implementation JSSideSlipMenu_ExampleUITests
-
+    
 - (void)setUp {
     [super setUp];
     
@@ -26,12 +26,12 @@
     
     // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
 }
-
+    
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
-
+    
 - (void)testExample {
     
     XCUIApplication *app = [[XCUIApplication alloc] init];
@@ -39,7 +39,7 @@
     [[[[[app.otherElements containingType:XCUIElementTypeNavigationBar identifier:@"JSView"] childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1] childrenMatchingType:XCUIElementTypeImage].element tap];
     [app.navigationBars[@"JSView"].buttons[@"show"] tap];
     
-//    XCUIApplication *app = [[XCUIApplication alloc] init];
+    //    XCUIApplication *app = [[XCUIApplication alloc] init];
     [app.buttons[@"push next view controller"] tap];
     [app.navigationBars[@"JSNextView"].buttons[@"Back"] tap];
     
@@ -50,5 +50,6 @@
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
+    
+    @end
 
-@end
