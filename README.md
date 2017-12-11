@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/JSSideSlipMenu.svg?style=flat)](http://cocoapods.org/pods/JSSideSlipMenu)
 [![Platform](https://img.shields.io/cocoapods/p/JSSideSlipMenu.svg?style=flat)](http://cocoapods.org/pods/JSSideSlipMenu)
 
+[![Preview](https://github.com/johnsongs/JSSideSlipMenu/blob/master/preview.gif)](https://github.com/johnsongs/JSSideSlipMenu/blob/master/preview.gif)
+
 JSSideSlipMenu is a simple slide menu.
 
 ## Example
