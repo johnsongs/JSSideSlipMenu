@@ -7,12 +7,25 @@
 //
 
 #import "JSAppDelegate.h"
+#import "JSViewController.h"
+#import "JSMenuView.h"
+#import "JSSideSlipMenu.h"
 
 @implementation JSAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    JSViewController *viewController = [[JSViewController alloc] init];
+    viewController.view.backgroundColor = [UIColor blackColor];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = navigationController;
+    self.window.backgroundColor = [UIColor clearColor];
+    [self.window makeKeyAndVisible];
+    
+    //Main method
+    [[JSSideSlipMenu sharedSlipMenu] setMenuSideView:[JSMenuView class] withControlNavigation:navigationController];
     return YES;
 }
 

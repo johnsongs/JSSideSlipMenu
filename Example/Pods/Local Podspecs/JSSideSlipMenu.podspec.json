@@ -1,0 +1,22 @@
+{
+  "name": "JSSideSlipMenu",
+  "version": "0.1.0",
+  "summary": "A short description of JSSideSlipMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/johnsongs/JSSideSlipMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johnsongs": "936642419@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/johnsongs/JSSideSlipMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSSideSlipMenu/Classes/**/*"
+}

@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/JSSideSlipMenu.svg?style=flat)](http://cocoapods.org/pods/JSSideSlipMenu)
 [![Platform](https://img.shields.io/cocoapods/p/JSSideSlipMenu.svg?style=flat)](http://cocoapods.org/pods/JSSideSlipMenu)
 
+JSSideSlipMenu is a simple slide menu.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -19,6 +19,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JSSideSlipMenu'
 ```
+
+## Usage
+
+```Objective-C
+[[JSSideSlipMenu sharedSideSlipMenu] setMenuSideView:[JSMenuView class] withControlNavigation:navigationController];
+```
+* JSMenuView is custom view
+* navigationController is rootController.
+----------
+Use `- (void)pushViewController:(UIViewController *)viewController` in JSSideSlipMenu.m method to push next ViewController
 
 ## Author
 

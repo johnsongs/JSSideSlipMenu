@@ -1,0 +1,6 @@
+framework module JSSideSlipMenu {
+  umbrella header "JSSideSlipMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD54DAF1FDE70230062AC23 /* JSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54DAE1FDE70230062AC23 /* JSMenuView.m */; };
+		2CD54DB11FDE712D0062AC23 /* JSUITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54DB01FDE712D0062AC23 /* JSUITest.m */; };
+		2CD54DB41FDE74230062AC23 /* JSNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54DB31FDE74230062AC23 /* JSNextViewController.m */; };
 		4B3B7D70908DF77D80A2BC6C /* Pods_JSSideSlipMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF1689C23F5BCEDF8CCF57 /* Pods_JSSideSlipMenu_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,7 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2792DDFF66EEA08589139200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2792DDFF66EEA08589139200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2CD54DAD1FDE70230062AC23 /* JSMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSMenuView.h; sourceTree = "<group>"; };
+		2CD54DAE1FDE70230062AC23 /* JSMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMenuView.m; sourceTree = "<group>"; };
+		2CD54DB01FDE712D0062AC23 /* JSUITest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSUITest.m; sourceTree = "<group>"; };
+		2CD54DB21FDE74230062AC23 /* JSNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSNextViewController.h; sourceTree = "<group>"; };
+		2CD54DB31FDE74230062AC23 /* JSNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSNextViewController.m; sourceTree = "<group>"; };
 		39B1ED9AC9016FE6DD24D7CF /* Pods_JSSideSlipMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSideSlipMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D99D9C8E462C20764291DD /* Pods-JSSideSlipMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideSlipMenu_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideSlipMenu_Example/Pods-JSSideSlipMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JSSideSlipMenu_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSSideSlipMenu_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,14 +67,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6082121F7608F56F0B20A422 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6082121F7608F56F0B20A422 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7878DA33FDFA3290CC6C9FAD /* Pods-JSSideSlipMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideSlipMenu_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A355504938FCAD5B5548F26 /* Pods-JSSideSlipMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideSlipMenu_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BEF4980FBF79D30D7336E3ED /* Pods-JSSideSlipMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSSideSlipMenu_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSSideSlipMenu_Example/Pods-JSSideSlipMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DEFF1689C23F5BCEDF8CCF57 /* Pods_JSSideSlipMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSideSlipMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E673E0ADA2B596F60E0D914E /* JSSideSlipMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JSSideSlipMenu.podspec; path = ../JSSideSlipMenu.podspec; sourceTree = "<group>"; };
+		E673E0ADA2B596F60E0D914E /* JSSideSlipMenu.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JSSideSlipMenu.podspec; path = ../JSSideSlipMenu.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +156,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JSViewController.h */,
 				6003F5A6195388D20070C39A /* JSViewController.m */,
+				2CD54DB21FDE74230062AC23 /* JSNextViewController.h */,
+				2CD54DB31FDE74230062AC23 /* JSNextViewController.m */,
+				2CD54DAD1FDE70230062AC23 /* JSMenuView.h */,
+				2CD54DAE1FDE70230062AC23 /* JSMenuView.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -172,6 +184,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				2CD54DB01FDE712D0062AC23 /* JSUITest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -247,7 +260,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JS;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = johnsongs;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -406,6 +419,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD54DAF1FDE70230062AC23 /* JSMenuView.m in Sources */,
+				2CD54DB41FDE74230062AC23 /* JSNextViewController.m in Sources */,
 				6003F59E195388D20070C39A /* JSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -416,6 +431,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD54DB11FDE712D0062AC23 /* JSUITest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,19 +482,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -506,18 +533,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -539,6 +577,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSSideSlipMenu/JSSideSlipMenu-Prefix.pch";
 				INFOPLIST_FILE = "JSSideSlipMenu/JSSideSlipMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +593,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JSSideSlipMenu/JSSideSlipMenu-Prefix.pch";
 				INFOPLIST_FILE = "JSSideSlipMenu/JSSideSlipMenu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

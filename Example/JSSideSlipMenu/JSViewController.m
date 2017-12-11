@@ -7,6 +7,7 @@
 //
 
 #import "JSViewController.h"
+#import "JSSideSlipMenu.h"
 
 @interface JSViewController ()
 
@@ -17,7 +18,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"show" style:UIBarButtonItemStylePlain target:self action:@selector(showMenu)];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [JSSideSlipMenu sharedSlipMenu].menuCanGesture = YES;
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [JSSideSlipMenu sharedSlipMenu].menuCanGesture = NO;
+}
+
+- (void)showMenu {
+    [[JSSideSlipMenu sharedSlipMenu] showSideAnimationComplete:nil];
 }
 
 - (void)didReceiveMemoryWarning

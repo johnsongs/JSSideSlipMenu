@@ -1,0 +1,6 @@
+framework module Pods_JSSideSlipMenu_Tests {
+  umbrella header "Pods-JSSideSlipMenu_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

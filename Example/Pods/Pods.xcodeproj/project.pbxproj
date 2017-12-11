@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0103CB9DC1D4033F026674EE7982FDAC /* Pods-JSSideSlipMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE5DD49AB47921B1F86C7984548243E /* Pods-JSSideSlipMenu_Tests-dummy.m */; };
+		12DBBA9F93886C82F5E7F190BF2289E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2E0DF77F1D7C9AD2CF2362A7F82B06BD /* Pods-JSSideSlipMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E07D53971D3F6B4BCD546D5AB7213D /* Pods-JSSideSlipMenu_Example-dummy.m */; };
+		47805009183163B38E5A3E6325927B71 /* JSSideSlipMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 572B873B5F83EFDE86E638F5AEF0CC9A /* JSSideSlipMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B53B48FBEE8EBC6D28F1C867219731 /* JSSideSlipMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A97372B42EF8EFC31983F2F4FC3EC53E /* JSSideSlipMenu.m */; };
+		85D2D3EFE2144354599ACBBDDBBEC9A2 /* JSSideSlipMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD8A001CA01F7E5BF70E4DA5A36FC2A /* JSSideSlipMenu-dummy.m */; };
+		8AC447DE2300525384C20194A120865D /* Pods-JSSideSlipMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13612C1B1B112904504EA11132E37F10 /* Pods-JSSideSlipMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9851D8F50668F4E512F3BA65A71AF038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C7618F0BF99777DB5B39CF26D55CEF7F /* JSSideSlipMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BFC501E0237D80D7A8CE108F9C3358 /* JSSideSlipMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3E0174E43EE3EDFE0F0FAE8FDA6326 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DAA3B129557BC198B94226A200AD902D /* Pods-JSSideSlipMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737A92BFDDD1FA94B9EFD0BC552517F7 /* Pods-JSSideSlipMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F209F51B853B1BB6F90731DB6D537849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3F4708F12E789C96F543E27C3EE4223;
+			remoteInfo = JSSideSlipMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C56576061C8A20ECB442BA3A938AFC /* Pods-JSSideSlipMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideSlipMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		01BFC501E0237D80D7A8CE108F9C3358 /* JSSideSlipMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSSideSlipMenu.h; path = JSSideSlipMenu/Classes/JSSideSlipMenu.h; sourceTree = "<group>"; };
+		0D214636120AE1A93537AA0B4543561E /* Pods-JSSideSlipMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSSideSlipMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		13612C1B1B112904504EA11132E37F10 /* Pods-JSSideSlipMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSideSlipMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		1BD8A001CA01F7E5BF70E4DA5A36FC2A /* JSSideSlipMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSSideSlipMenu-dummy.m"; sourceTree = "<group>"; };
+		21F9651AF20547C6FB48AAD43BE0DDED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EFCF2955526CC249A0129AF1B226D6 /* Pods-JSSideSlipMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideSlipMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		54C0EBFD9B665ACDD23F6E5379B458CB /* JSSideSlipMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSideSlipMenu-prefix.pch"; sourceTree = "<group>"; };
+		572B873B5F83EFDE86E638F5AEF0CC9A /* JSSideSlipMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSideSlipMenu-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7140DA939273BC734BFAABB28F651289 /* Pods-JSSideSlipMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JSSideSlipMenu_Example.modulemap"; sourceTree = "<group>"; };
+		737A92BFDDD1FA94B9EFD0BC552517F7 /* Pods-JSSideSlipMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSideSlipMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		826998AE5B41C0D84B14244494643D6B /* Pods-JSSideSlipMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideSlipMenu_Tests-resources.sh"; sourceTree = "<group>"; };
+		8A6FA23D2ED6CB023E9A990FBA6FB319 /* Pods_JSSideSlipMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSSideSlipMenu_Example.framework; path = "Pods-JSSideSlipMenu_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CE5DD49AB47921B1F86C7984548243E /* Pods-JSSideSlipMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSideSlipMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		8CE75EF97E982B9F7C4EC5A5ED704853 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F937233D3D606AFFADA1853B57DFFC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD19804A7E086528AB139E77B7F3693 /* Pods-JSSideSlipMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideSlipMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A97372B42EF8EFC31983F2F4FC3EC53E /* JSSideSlipMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSSideSlipMenu.m; path = JSSideSlipMenu/Classes/JSSideSlipMenu.m; sourceTree = "<group>"; };
+		AA38743A513CA88E292FB7FC509B323C /* JSSideSlipMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSSideSlipMenu.modulemap; sourceTree = "<group>"; };
+		B94931C2EE0CD34361BAE92A7B8A9D83 /* Pods-JSSideSlipMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideSlipMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7E07D53971D3F6B4BCD546D5AB7213D /* Pods-JSSideSlipMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSideSlipMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		CA2B1A620DD761682D20D70A71277F42 /* JSSideSlipMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSSideSlipMenu.xcconfig; sourceTree = "<group>"; };
+		CBCF141D5B7DD3CC016312A2D2348345 /* Pods-JSSideSlipMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideSlipMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0182B3FFA7C9AC05ADDD66C5142FBB8 /* Pods-JSSideSlipMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSideSlipMenu_Example-resources.sh"; sourceTree = "<group>"; };
+		DF70778C4212652744ADB1B34364CDC1 /* Pods-JSSideSlipMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSideSlipMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E20CFDCB8CA0A7E6F024E6B9FF8346FD /* Pods-JSSideSlipMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSideSlipMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4F317ADCB1B01D916EAB7DDB4C9CB7B /* Pods-JSSideSlipMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSideSlipMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E93CB817DDAEC969042FB2B9A78E72E0 /* Pods-JSSideSlipMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSideSlipMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E99665D4A98B9AAA1BC5EFF157433661 /* Pods-JSSideSlipMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSideSlipMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9E572B3B8F84A2EF1D3F1E8032031B0 /* Pods_JSSideSlipMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSSideSlipMenu_Tests.framework; path = "Pods-JSSideSlipMenu_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2589E0289465D64C9318269579A638 /* JSSideSlipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSSideSlipMenu.framework; path = JSSideSlipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB0401070145E0C226575F4C811972A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3E0174E43EE3EDFE0F0FAE8FDA6326 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B831F2FF27D4D498D051680668115C0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9851D8F50668F4E512F3BA65A71AF038 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1AD195BA6088814EC4BD6184A51C1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DBBA9F93886C82F5E7F190BF2289E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E20F74156316C66CF361DDF676880F /* Pods-JSSideSlipMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F937233D3D606AFFADA1853B57DFFC3 /* Info.plist */,
+				0D214636120AE1A93537AA0B4543561E /* Pods-JSSideSlipMenu_Tests.modulemap */,
+				E4F317ADCB1B01D916EAB7DDB4C9CB7B /* Pods-JSSideSlipMenu_Tests-acknowledgements.markdown */,
+				E20CFDCB8CA0A7E6F024E6B9FF8346FD /* Pods-JSSideSlipMenu_Tests-acknowledgements.plist */,
+				8CE5DD49AB47921B1F86C7984548243E /* Pods-JSSideSlipMenu_Tests-dummy.m */,
+				33EFCF2955526CC249A0129AF1B226D6 /* Pods-JSSideSlipMenu_Tests-frameworks.sh */,
+				826998AE5B41C0D84B14244494643D6B /* Pods-JSSideSlipMenu_Tests-resources.sh */,
+				737A92BFDDD1FA94B9EFD0BC552517F7 /* Pods-JSSideSlipMenu_Tests-umbrella.h */,
+				B94931C2EE0CD34361BAE92A7B8A9D83 /* Pods-JSSideSlipMenu_Tests.debug.xcconfig */,
+				00C56576061C8A20ECB442BA3A938AFC /* Pods-JSSideSlipMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSSideSlipMenu_Tests";
+			path = "Target Support Files/Pods-JSSideSlipMenu_Tests";
+			sourceTree = "<group>";
+		};
+		4B28390ED02845C43B226D15269ACB86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CE75EF97E982B9F7C4EC5A5ED704853 /* Info.plist */,
+				AA38743A513CA88E292FB7FC509B323C /* JSSideSlipMenu.modulemap */,
+				CA2B1A620DD761682D20D70A71277F42 /* JSSideSlipMenu.xcconfig */,
+				1BD8A001CA01F7E5BF70E4DA5A36FC2A /* JSSideSlipMenu-dummy.m */,
+				54C0EBFD9B665ACDD23F6E5379B458CB /* JSSideSlipMenu-prefix.pch */,
+				572B873B5F83EFDE86E638F5AEF0CC9A /* JSSideSlipMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSSideSlipMenu";
+			sourceTree = "<group>";
+		};
+		4CC0AF8921EF3066F260B79F981CFC7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75754E4A00F6B85E4C8BC9E52A888CAD /* Pods-JSSideSlipMenu_Example */,
+				40E20F74156316C66CF361DDF676880F /* Pods-JSSideSlipMenu_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C31EC29ACBC5F874AD738DCC0030720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2589E0289465D64C9318269579A638 /* JSSideSlipMenu.framework */,
+				8A6FA23D2ED6CB023E9A990FBA6FB319 /* Pods_JSSideSlipMenu_Example.framework */,
+				F9E572B3B8F84A2EF1D3F1E8032031B0 /* Pods_JSSideSlipMenu_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75754E4A00F6B85E4C8BC9E52A888CAD /* Pods-JSSideSlipMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				21F9651AF20547C6FB48AAD43BE0DDED /* Info.plist */,
+				7140DA939273BC734BFAABB28F651289 /* Pods-JSSideSlipMenu_Example.modulemap */,
+				E99665D4A98B9AAA1BC5EFF157433661 /* Pods-JSSideSlipMenu_Example-acknowledgements.markdown */,
+				E93CB817DDAEC969042FB2B9A78E72E0 /* Pods-JSSideSlipMenu_Example-acknowledgements.plist */,
+				C7E07D53971D3F6B4BCD546D5AB7213D /* Pods-JSSideSlipMenu_Example-dummy.m */,
+				8FD19804A7E086528AB139E77B7F3693 /* Pods-JSSideSlipMenu_Example-frameworks.sh */,
+				D0182B3FFA7C9AC05ADDD66C5142FBB8 /* Pods-JSSideSlipMenu_Example-resources.sh */,
+				13612C1B1B112904504EA11132E37F10 /* Pods-JSSideSlipMenu_Example-umbrella.h */,
+				DF70778C4212652744ADB1B34364CDC1 /* Pods-JSSideSlipMenu_Example.debug.xcconfig */,
+				CBCF141D5B7DD3CC016312A2D2348345 /* Pods-JSSideSlipMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-JSSideSlipMenu_Example";
+			path = "Target Support Files/Pods-JSSideSlipMenu_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D9FB02CEFFA074F8C6320C73B99F9A61 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C31EC29ACBC5F874AD738DCC0030720 /* Products */,
+				4CC0AF8921EF3066F260B79F981CFC7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1DC3EA2F4B39C146DF62EF4405BD2D0 /* JSSideSlipMenu */ = {
+			isa = PBXGroup;
+			children = (
+				01BFC501E0237D80D7A8CE108F9C3358 /* JSSideSlipMenu.h */,
+				A97372B42EF8EFC31983F2F4FC3EC53E /* JSSideSlipMenu.m */,
+				4B28390ED02845C43B226D15269ACB86 /* Support Files */,
+			);
+			name = JSSideSlipMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9FB02CEFFA074F8C6320C73B99F9A61 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1DC3EA2F4B39C146DF62EF4405BD2D0 /* JSSideSlipMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		098318EB62065F690F437B29A96D2287 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47805009183163B38E5A3E6325927B71 /* JSSideSlipMenu-umbrella.h in Headers */,
+				C7618F0BF99777DB5B39CF26D55CEF7F /* JSSideSlipMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6B82A06E361E3CE015C4FB03BCDF6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC447DE2300525384C20194A120865D /* Pods-JSSideSlipMenu_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615C97AF096F700B4B40420C2B8B0178 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA3B129557BC198B94226A200AD902D /* Pods-JSSideSlipMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B3F4708F12E789C96F543E27C3EE4223 /* JSSideSlipMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC7BD5CF63E4090A874899AE7A170CC /* Build configuration list for PBXNativeTarget "JSSideSlipMenu" */;
+			buildPhases = (
+				3B1F6A260E06A7D0DF72748A3AB00C2E /* Sources */,
+				B831F2FF27D4D498D051680668115C0D /* Frameworks */,
+				098318EB62065F690F437B29A96D2287 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSideSlipMenu;
+			productName = JSSideSlipMenu;
+			productReference = FB2589E0289465D64C9318269579A638 /* JSSideSlipMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB438DC88003059518DBA18CD58F8CF3 /* Pods-JSSideSlipMenu_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16A942B516D1F31558C896CAAFC91C35 /* Build configuration list for PBXNativeTarget "Pods-JSSideSlipMenu_Example" */;
+			buildPhases = (
+				93CDBB00AD2B663B91DD5D56A6C233EA /* Sources */,
+				4DB0401070145E0C226575F4C811972A /* Frameworks */,
+				0D6B82A06E361E3CE015C4FB03BCDF6F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62C78224FF7702F54CD127D32A8AE720 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSSideSlipMenu_Example";
+			productName = "Pods-JSSideSlipMenu_Example";
+			productReference = 8A6FA23D2ED6CB023E9A990FBA6FB319 /* Pods_JSSideSlipMenu_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC2130D5A9041F12E4A382597CEC12E5 /* Pods-JSSideSlipMenu_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C404BD122C8E6C712CF7173B31BE1C /* Build configuration list for PBXNativeTarget "Pods-JSSideSlipMenu_Tests" */;
+			buildPhases = (
+				712D614F348204379ED0DD5369B3655C /* Sources */,
+				D1AD195BA6088814EC4BD6184A51C1F6 /* Frameworks */,
+				615C97AF096F700B4B40420C2B8B0178 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JSSideSlipMenu_Tests";
+			productName = "Pods-JSSideSlipMenu_Tests";
+			productReference = F9E572B3B8F84A2EF1D3F1E8032031B0 /* Pods_JSSideSlipMenu_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C31EC29ACBC5F874AD738DCC0030720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F4708F12E789C96F543E27C3EE4223 /* JSSideSlipMenu */,
+				CB438DC88003059518DBA18CD58F8CF3 /* Pods-JSSideSlipMenu_Example */,
+				DC2130D5A9041F12E4A382597CEC12E5 /* Pods-JSSideSlipMenu_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1F6A260E06A7D0DF72748A3AB00C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D2D3EFE2144354599ACBBDDBBEC9A2 /* JSSideSlipMenu-dummy.m in Sources */,
+				82B53B48FBEE8EBC6D28F1C867219731 /* JSSideSlipMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		712D614F348204379ED0DD5369B3655C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0103CB9DC1D4033F026674EE7982FDAC /* Pods-JSSideSlipMenu_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93CDBB00AD2B663B91DD5D56A6C233EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0DF77F1D7C9AD2CF2362A7F82B06BD /* Pods-JSSideSlipMenu_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62C78224FF7702F54CD127D32A8AE720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSSideSlipMenu;
+			target = B3F4708F12E789C96F543E27C3EE4223 /* JSSideSlipMenu */;
+			targetProxy = F209F51B853B1BB6F90731DB6D537849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34C9D7D0745C3855C92C2B3ADE7A7B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94931C2EE0CD34361BAE92A7B8A9D83 /* Pods-JSSideSlipMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideSlipMenu_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideSlipMenu_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A5FEC40BBCF1CB124A31C5EB05A3A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2B1A620DD761682D20D70A71277F42 /* JSSideSlipMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSSideSlipMenu/JSSideSlipMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSideSlipMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSideSlipMenu/JSSideSlipMenu.modulemap";
+				PRODUCT_NAME = JSSideSlipMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CBFCDE1C184D159EE81823BCA52060F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2B1A620DD761682D20D70A71277F42 /* JSSideSlipMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSSideSlipMenu/JSSideSlipMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSideSlipMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSideSlipMenu/JSSideSlipMenu.modulemap";
+				PRODUCT_NAME = JSSideSlipMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		852D6A962BE9604358D663E49F2C2834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C56576061C8A20ECB442BA3A938AFC /* Pods-JSSideSlipMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideSlipMenu_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideSlipMenu_Tests/Pods-JSSideSlipMenu_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideSlipMenu_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5DFBDA505EC8F7411E6C72E5A34965D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCF141D5B7DD3CC016312A2D2348345 /* Pods-JSSideSlipMenu_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideSlipMenu_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideSlipMenu_Example/Pods-JSSideSlipMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideSlipMenu_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5228FEF0D746658495C172F98D40B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF70778C4212652744ADB1B34364CDC1 /* Pods-JSSideSlipMenu_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSideSlipMenu_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSideSlipMenu_Example/Pods-JSSideSlipMenu_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JSSideSlipMenu_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16A942B516D1F31558C896CAAFC91C35 /* Build configuration list for PBXNativeTarget "Pods-JSSideSlipMenu_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5228FEF0D746658495C172F98D40B48 /* Debug */,
+				D5DFBDA505EC8F7411E6C72E5A34965D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C404BD122C8E6C712CF7173B31BE1C /* Build configuration list for PBXNativeTarget "Pods-JSSideSlipMenu_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C9D7D0745C3855C92C2B3ADE7A7B9B /* Debug */,
+				852D6A962BE9604358D663E49F2C2834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC7BD5CF63E4090A874899AE7A170CC /* Build configuration list for PBXNativeTarget "JSSideSlipMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBFCDE1C184D159EE81823BCA52060F /* Debug */,
+				3A5FEC40BBCF1CB124A31C5EB05A3A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -6,6 +6,5 @@ target 'JSSideSlipMenu_Example' do
   target 'JSSideSlipMenu_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
