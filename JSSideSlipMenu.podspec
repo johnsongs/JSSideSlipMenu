@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JSSideSlipMenu'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = "简单的侧滑菜单"
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JSSideSlipMenu/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'JSSideSlipMenu' => ['JSSideSlipMenu/Assets/*.png']
   # }
