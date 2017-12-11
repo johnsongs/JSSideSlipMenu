@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2CD54DAF1FDE70230062AC23 /* JSMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54DAE1FDE70230062AC23 /* JSMenuView.m */; };
-		2CD54DB11FDE712D0062AC23 /* JSUITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54DB01FDE712D0062AC23 /* JSUITest.m */; };
 		2CD54DB41FDE74230062AC23 /* JSNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD54DB31FDE74230062AC23 /* JSNextViewController.m */; };
 		4B3B7D70908DF77D80A2BC6C /* Pods_JSSideSlipMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFF1689C23F5BCEDF8CCF57 /* Pods_JSSideSlipMenu_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -43,7 +42,6 @@
 		2792DDFF66EEA08589139200 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2CD54DAD1FDE70230062AC23 /* JSMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSMenuView.h; sourceTree = "<group>"; };
 		2CD54DAE1FDE70230062AC23 /* JSMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMenuView.m; sourceTree = "<group>"; };
-		2CD54DB01FDE712D0062AC23 /* JSUITest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSUITest.m; sourceTree = "<group>"; };
 		2CD54DB21FDE74230062AC23 /* JSNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSNextViewController.h; sourceTree = "<group>"; };
 		2CD54DB31FDE74230062AC23 /* JSNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSNextViewController.m; sourceTree = "<group>"; };
 		39B1ED9AC9016FE6DD24D7CF /* Pods_JSSideSlipMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSideSlipMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,7 +182,6 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
-				2CD54DB01FDE712D0062AC23 /* JSUITest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -431,7 +428,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CD54DB11FDE712D0062AC23 /* JSUITest.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
