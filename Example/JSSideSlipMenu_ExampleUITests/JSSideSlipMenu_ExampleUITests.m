@@ -33,18 +33,18 @@
 }
     
 - (void)testExample {
-    XCUIApplication *app = [[XCUIApplication alloc] init];
-    
-    [app.navigationBars.buttons[@"show"] tap];
-    XCUIElement *pushNextViewControllerButton = app.buttons[@"push next view controller"];
-    [pushNextViewControllerButton tap];
-    [app.navigationBars.buttons[@"Back"] tap];
-    
-    XCUIElement *element = [[[app childrenMatchingType:XCUIElementTypeWindow] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeOther].element;
-    [[[[element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element swipeRight];
-    [[[[element childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1] childrenMatchingType:XCUIElementTypeImage].element tap];
-    [app.navigationBars.buttons[@"show"] tap];
-    [pushNextViewControllerButton tap];
+//    XCUIApplication *app = [[XCUIApplication alloc] init];
+//    
+//    [app.navigationBars.buttons[@"show"] tap];
+//    XCUIElement *pushNextViewControllerButton = app.buttons[@"push next view controller"];
+//    [pushNextViewControllerButton tap];
+//    [app.navigationBars.buttons[@"Back"] tap];
+//    
+//    XCUIElement *element = [[[app childrenMatchingType:XCUIElementTypeWindow] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeOther].element;
+//    [[[[element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element swipeRight];
+//    [[[[element childrenMatchingType:XCUIElementTypeOther] elementBoundByIndex:1] childrenMatchingType:XCUIElementTypeImage].element tap];
+//    [app.navigationBars.buttons[@"show"] tap];
+//    [pushNextViewControllerButton tap];
     // Use recording to get started writing UI tests.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
 }
