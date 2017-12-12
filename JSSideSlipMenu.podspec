@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JSSideSlipMenu'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = "简单的侧滑菜单"
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/johnsongs/JSSideSlipMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'JSSideSlipMenu/Classes/**/*'
 
