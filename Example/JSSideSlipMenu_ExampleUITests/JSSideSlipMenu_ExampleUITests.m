@@ -34,10 +34,11 @@
     
 - (void)testExample {
     XCUIApplication *app = [[XCUIApplication alloc] init];
+    
     [app.navigationBars.buttons[@"show"] tap];
     XCUIElement *pushNextViewControllerButton = app.buttons[@"push next view controller"];
     [pushNextViewControllerButton tap];
-    [app.navigationBars[@"JSNextView"].buttons[@"Back"] tap];
+    [app.navigationBars.buttons[@"Back"] tap];
     
     XCUIElement *element = [[[app childrenMatchingType:XCUIElementTypeWindow] elementBoundByIndex:0] childrenMatchingType:XCUIElementTypeOther].element;
     [[[[element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element swipeRight];
